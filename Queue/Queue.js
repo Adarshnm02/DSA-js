@@ -41,3 +41,7 @@ console.log(queue.size())
 queue.print()
 console.log(queue.dequeue());
 console.log(queue.peek())
+
+
+
+//In this code the shift() method is lenear complexity 
