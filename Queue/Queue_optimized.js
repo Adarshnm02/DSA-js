@@ -14,7 +14,7 @@ class Queue{
         const item = this.items[this.front]
         delete this.items[this.front]
         this.front++
-        return item
+        return item 
     }
 
     isEmpty(){
