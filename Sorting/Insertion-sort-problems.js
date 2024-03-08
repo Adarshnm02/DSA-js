@@ -1,4 +1,21 @@
-//Write a function to sort an array of integers using the Insertion Sort algorithm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Write a function to sort an array of integers in desending order using the Insertion Sort algorithm.
 
 function insertionSort(arr){
     for(let i = 0;i<arr.length;i++){
@@ -13,8 +30,11 @@ function insertionSort(arr){
 }
 
 
-let arr = [2,3,2,4,1,5,4,6,7]
+let arr = [3,5,2,6,8,56,8,7,5]
 
 insertionSort(arr);
 
 console.log(arr);
+
+
+

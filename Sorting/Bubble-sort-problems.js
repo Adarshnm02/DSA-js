@@ -88,14 +88,30 @@ function bubbleSortDuplicat(arr){
 
 
 
+// Bubble Sort implementation to sort the array in descending order.
 
+
+
+function bubbleSortDec(arr){
+    let swapped
+    do{
+        swapped = false
+        for(let i = 0; i< arr.length; i++){
+            if(arr[i] < arr[i+1]){
+                let temp = arr[i]
+                arr[i] = arr[i+1]
+                arr[i+1] = temp
+                swapped = true
+            }
+        }
+    }while(swapped)
+}
 
 
 
 const arr = [3,6,2,1,5,8,7,4,10,9]
-const str = ['zoom', 'click', 'apply', 'boost', 'focous']
-const dupArr = [1,2,4,2,1,5,6,5,2,2,1]
-
+bubbleSortDec(arr)
+console.log(arr);
 
 // bubbleSort(arr)
 // bubbleSortDec(arr)
@@ -109,6 +125,7 @@ const dupArr = [1,2,4,2,1,5,6,5,2,2,1]
 // console.log(dupArr);
 
 
-
+const str = ['zoom', 'click', 'apply', 'boost', 'focous']
+const dupArr = [1,2,4,2,1,5,6,5,2,2,1]
 
 
